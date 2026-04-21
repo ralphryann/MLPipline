@@ -1,9 +1,17 @@
-datasets
+# Core ML / data
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
 matplotlib
-numpy
-optuna
-pandas
-scikit-learn
 seaborn
-torch
-transformers
+optuna
+
+# Deep learning (optional path: transformer fine-tuning)
+torch>=2.0
+transformers>=4.36
+datasets>=2.16
+accelerate>=0.26
+
+# Notebook
+jupyter>=1.0
+ipykernel>=6.0
